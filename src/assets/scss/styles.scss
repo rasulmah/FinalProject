@@ -1,0 +1,21 @@
+@font-face {
+     font-family: "Unity Sans";
+     src: url(../fonts/TTF/UnitySans-Basic.ttf);
+}
+
+@import 'variables';
+
+body{
+     font-family: "Unity Sans" !important;
+     color: aliceblue !important;
+     background-color: rgb(41, 41, 41) !important;
+}
+p{
+     border: none;
+     color: white;
+}
+p:hover{
+     transition: all .2s ease, transform .2s ease;
+     border-bottom: 1px solid #00f5d2;
+     color: #00f5d2;
+}
