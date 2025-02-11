@@ -1,0 +1,14 @@
+.slider-container {
+     width: 80%;
+     margin: 0 auto;
+     position: relative;
+     .slick-prev, .slick-next {
+          z-index: 3 !important;
+        }
+
+     img{
+          width: 200px !important;
+          height: auto;
+     }
+   }
+   

@@ -1,21 +1,28 @@
+@import 'variables';
+
 @font-face {
      font-family: "Unity Sans";
      src: url(../fonts/TTF/UnitySans-Basic.ttf);
 }
+*{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
 
-@import 'variables';
 
 body{
-     font-family: "Unity Sans" !important;
-     color: aliceblue !important;
-     background-color: rgb(41, 41, 41) !important;
+     font-family: "Space Grotesk", serif !important;
+     background-color: #0f0f0f !important;
+     overflow: auto;
+     height: 1000vh;
 }
 p{
-     border: none;
+     border-bottom: none;
      color: white;
 }
 p:hover{
-     transition: all .2s ease, transform .2s ease;
      border-bottom: 1px solid #00f5d2;
+     transition: all 0.4s ease !important;
      color: #00f5d2;
 }
