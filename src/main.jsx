@@ -8,6 +8,8 @@ import Footer from './layout/Footer';
 import './assets/scss/styles.scss'
 
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />

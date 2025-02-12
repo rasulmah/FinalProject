@@ -4,6 +4,8 @@ import '../assets/scss/_home.scss'
 import FeatureSlider from '../components/FeatureSlider'
 import MagneticButton from '../components/MagneticButton'
 import SectionHeader from '../components/SectionHeader'
+import CollectionSlider from '../components/CollectionSlider'
+/* import CollectionSlider from '../components/CollectionSlider' */
 
 
 
@@ -32,12 +34,11 @@ const Home = () => {
     <section className="collections d-flex justify-content-between align-items-center flex-column">
       <div className="section-header">
         <SectionHeader h1="New 2025" h2="New Collections" p="Grab the latest collections from Official Team Merchandise">
-          
         </SectionHeader>
       </div>
 
       <div className="section-body">
-
+        <CollectionSlider></CollectionSlider>
       </div>
 
       <MagneticButton text="Shop Fanwear" href="www.google.com"></MagneticButton>

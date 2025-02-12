@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import '../assets/scss/_swiper.scss'
+import '../assets/scss/_home.scss'
 
 // import required modules
 import {  Autoplay, Pagination } from 'swiper/modules';
@@ -24,7 +24,7 @@ const FeatureSlider = () => {
           clickable: true,
         }}
         breakpoints={{
-          400: {
+          300: {
             slidesPerView: 1,
             spaceBetween: 0,
             loop: true,
