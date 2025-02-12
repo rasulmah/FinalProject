@@ -1,0 +1,66 @@
+@use "_variables";
+
+
+.container{
+     position: relative;
+     text-align: center;
+     
+     h1{
+          position: absolute;
+          bottom: 22px;
+          left: 50%;
+          z-index: -1;
+          text-align: center;
+          overflow: hidden;
+          pointer-events: none;
+          white-space: nowrap;
+          transform: translate(-50%, 13%);
+          color: variables.$accent-color;
+          opacity: 0.3;
+          font-size: 90px ;
+          font-weight: 700 !important;
+          letter-spacing: -.01em;
+          line-height: 110%;
+     }
+
+     .bottom-content{
+          
+          h2{
+               font-size: 37px;
+               font-weight: 700 !important;
+               line-height: 110%;
+               color: white;
+          }
+          p{
+               font-size: 15px;
+               font-weight: 300;
+               line-height: 140%;
+               color: white;
+          }
+     }
+
+     
+}
+
+
+
+@media only screen and (max-width:900px){
+     h1{
+          font-size: 70px !important;
+     }
+     h2{
+          font-size: 30px !important;
+     }
+}
+
+@media only screen and (max-width:700px){
+     h1{
+          font-size: 50px !important;
+     }
+     h2{
+          font-size: 20px !important;
+     }
+     p{
+          font-size: 12px !important;
+     }
+}

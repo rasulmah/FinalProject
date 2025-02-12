@@ -1,4 +1,4 @@
-@import 'variables';
+@use '_variables';
 
 ul{
      margin-top: 1rem;
@@ -9,13 +9,18 @@ ul{
 }
 
 .header{
-     position: relative;
+     position: absolute;
      width: 100%;
      z-index: 9999;
      .header-container{
           .ann-menu{
                width: 100%;
                background-color: #000;
+               text-transform: uppercase;
+               font-size: 10px;
+               font-weight: 300;
+               letter-spacing: .13em;
+               line-height: 131%;
                text-transform: uppercase;
                button{
                     align-items: center;
@@ -46,8 +51,12 @@ ul{
      
                .sponsor a{
                     text-decoration: none !important;
-                    font-size: 13px;
-                    color: $accent-color;
+                    color: variables.$accent-color;
+                    font-size: 10px;
+                    font-weight: 300;
+                    letter-spacing: .13em !important;
+                    line-height: 131%;
+                    text-transform: uppercase;
      
                }
      
@@ -64,6 +73,7 @@ ul{
      gap: 30px;
      list-style: none;
      color: white;
+     transition: width 0.5s ease-in-out !important;
      .Dropdown-Item{
           .Dropdown-Link{
                color: white !important;
@@ -81,6 +91,8 @@ ul{
 
 .banner-items{
      gap: 15px;
+     justify-content: space-between;
+     transition: width 0.5s ease-in-out, font-size 0.3s ease-in-out !important;
      .banner-icons{
           flex-direction: row;
           gap: 15px;
@@ -96,12 +108,14 @@ ul{
           }
      }
 .searchContainer{
+     transition: width 0.5s ease-in-out, font-size 0.3s ease-in-out !important;
 .SearchForm{
      width: 100%;
      margin-right: 0;
      background-color: #fdfdfd26;
      backdrop-filter: blur(15px);
      -webkit-backdrop-filter: blur(15px);
+     transition: all 0.5s ease, font-size 0.5s ease !important;
      .SearchField{
           position: relative;
           width: 100%;
@@ -114,6 +128,7 @@ ul{
                border-radius: 2px;
                background-color: transparent;
                color: #fff;
+               transition: width 0.5s ease-in-out, font-size 0.3s ease-in-out !important;
                
           }
           .SearchLabel{
@@ -151,3 +166,50 @@ ul{
 }
 }
 }
+
+.dropdown-element{
+     display: none !important;
+}
+
+
+
+/*Responsive Breakpoints*/
+/*Media Querries Responsive*/
+@media only screen and (max-width: 1440px){
+     .ann-menu{
+          display: none !important;
+     }
+     .Dropdown-Items{
+          display: none !important;
+     }
+     .searchContainer{
+          width: 100%;
+     }
+     .container-fluid{
+          flex-wrap: nowrap !important;
+          gap: 10px;
+     }
+     .banner-items{
+          width: 100%;
+     }
+     .dropdown-element{
+          display: block !important;
+     }
+     .icon{
+          display: none !important;
+     }
+
+}
+
+@media only screen and (max-width: 800px){
+     .searchContainer{
+          display: none !important;
+     }
+     .banner-items{
+          justify-content: flex-end;
+     }
+     .logo{
+          width: 145px !important;
+     }
+}
+

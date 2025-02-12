@@ -1,4 +1,4 @@
-@import 'variables';
+@use '_variables';
 
 @font-face {
      font-family: "Unity Sans";
@@ -13,16 +13,23 @@
 
 body{
      font-family: "Space Grotesk", serif !important;
-     background-color: #0f0f0f !important;
-     overflow: auto;
-     height: 1000vh;
+     background-color: variables.$main-bg !important;
+     
+     
 }
-p{
+ol, ul{
+     padding-left: 0 !important;
+     list-style-type: none;
+}
+a{
+     text-decoration: inherit !important;
+}
+/* p{
      border-bottom: none;
      color: white;
-}
-p:hover{
+} */
+/* p:hover{
      border-bottom: 1px solid #00f5d2;
      transition: all 0.4s ease !important;
      color: #00f5d2;
-}
+} */
