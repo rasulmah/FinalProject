@@ -1,10 +1,11 @@
 import 'react'
 import "../assets/scss/_colcard.scss"
 
-const CollectionCard = () => {
+// eslint-disable-next-line react/prop-types
+const CollectionCard = ({img}) => {
      return (
-     <a className='card'>
-          <div className="card-content">
+     <a className='card' style={{backgroundImage: `url(${img})`}}>
+          <div className="card-content" >
                <h4>Mechanics</h4>
                <p>shop collection</p>
           </div>

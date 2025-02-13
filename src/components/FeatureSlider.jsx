@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import '../assets/scss/_home.scss'
+import '../assets/scss/_featureslider.scss'
 
 // import required modules
 import {  Autoplay, Pagination } from 'swiper/modules';
@@ -44,6 +44,7 @@ const FeatureSlider = () => {
         }}
         modules={[Pagination, Autoplay]}
         className="mySwiper"
+        id="FeatureSlider"
       >
         <SwiperSlide>
           <FeatureCard />
