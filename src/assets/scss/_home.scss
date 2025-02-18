@@ -121,21 +121,42 @@
 
 
 
-.collections{
-     background-image: url(https://shop-int.mercedesamgf1.com/cdn/shop/files/background-3_d4b03e7a-f58a-4737-afaf-790fcf79df4b.jpg?v=1677662101&width=3840);
-     mask-image: linear-gradient(360deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
-     background-attachment: fixed;
-     padding: 100px 0 !important;
-     position: relative;
-     gap: 50px;
-}
+
 
 
 .section-body{
      width: 100%;
      height: auto;
      padding-left: 20px;
+}
+
+.sections{
+     background-image: url(https://shop-int.mercedesamgf1.com/cdn/shop/files/background-3_d4b03e7a-f58a-4737-afaf-790fcf79df4b.jpg?v=1677662101&width=3840);
+          mask-image: linear-gradient(360deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+
+     .collections{
+          
+          padding: 100px 0 !important;
+          position: relative;
+          gap: 50px;
+     }
+
+     .drivers{
+          padding: 50px 0 !important;
+          position: relative;
+          gap: 50px;
+          /* p{
+               width: 90%;
+          } */
+
+          .drivers-body{
+               width: 100%;
+               height: auto;
+          }
+     }
+
 }

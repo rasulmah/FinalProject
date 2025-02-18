@@ -5,6 +5,7 @@ import FeatureSlider from '../components/FeatureSlider'
 import MagneticButton from '../components/MagneticButton'
 import SectionHeader from '../components/SectionHeader'
 import CollectionSlider from '../components/CollectionSlider'
+import DriversSlider from '../components/DriversSlider'
 /* import CollectionSlider from '../components/CollectionSlider' */
 
 
@@ -31,6 +32,8 @@ const Home = () => {
         <FeatureSlider />
     </section>
 
+    <div className="sections">
+
     <section className="collections d-flex justify-content-between align-items-center flex-column">
       <div className="section-header">
         <SectionHeader h1="New 2025" h2="New Collections" p="Grab the latest collections from Official Team Merchandise">
@@ -43,6 +46,26 @@ const Home = () => {
 
       <MagneticButton text="Shop Fanwear" href="www.google.com"></MagneticButton>
     </section>
+
+
+    <section className="drivers d-flex justify-content-between align-items-center flex-column">
+      <div className="section-header">
+        <SectionHeader h1="Drivers" h2="The Drivers' Collections" p="Kimi or George superfan? Look no further than the Driver Collections to show your support for our boys">
+        </SectionHeader>
+      </div>
+
+      <div className="drivers-body">
+        <DriversSlider></DriversSlider>
+      </div>
+
+    </section>
+
+
+
+
+    </div>
+
+    
   </>
     
   )

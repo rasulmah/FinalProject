@@ -21,7 +21,7 @@ const CollectionSlider = () => {
       scrollbar={{ draggable: true }} // Make scrollbar visible
       modules={[Scrollbar]}
       breakpoints={{
-        450: {
+        300: {
           slidesPerView: 1,
         },
         550: {

@@ -4,10 +4,11 @@
 .container{
      position: relative;
      text-align: center;
+     height: 100px;
      
      h1{
           position: absolute;
-          bottom: 22px;
+          bottom: 48px;
           left: 50%;
           z-index: -1;
           text-align: center;
@@ -24,18 +25,21 @@
      }
 
      .bottom-content{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
           
           h2{
                font-size: 37px;
                font-weight: 700 !important;
                line-height: 110%;
-               color: white;
+               color: rgba(255, 255, 255, 0.801);
           }
           p{
                font-size: 15px;
                font-weight: 300;
                line-height: 140%;
-               color: white;
+               color: rgba(255, 255, 255, 0.623);
           }
      }
 
@@ -47,6 +51,7 @@
 @media only screen and (max-width:900px){
      h1{
           font-size: 70px !important;
+          bottom: 58px !important;
      }
      h2{
           font-size: 30px !important;
@@ -56,6 +61,7 @@
 @media only screen and (max-width:700px){
      h1{
           font-size: 50px !important;
+          bottom: 68px !important;
      }
      h2{
           font-size: 20px !important;
