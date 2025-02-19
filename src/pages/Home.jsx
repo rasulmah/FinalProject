@@ -6,7 +6,8 @@ import MagneticButton from '../components/MagneticButton'
 import SectionHeader from '../components/SectionHeader'
 import CollectionSlider from '../components/CollectionSlider'
 import DriversSlider from '../components/DriversSlider'
-/* import CollectionSlider from '../components/CollectionSlider' */
+import TrendingSlider from '../components/TrendingSlider'
+
 
 
 
@@ -62,6 +63,19 @@ const Home = () => {
 
 
 
+    <section className="trending d-flex justify-content-between align-items-center flex-column">
+      <div className="section-header">
+        <SectionHeader h1="Trending" h2="Going Fast" p="Don't miss out on these fast-moving items - get them before they're gone and look the part of a Silver Arrows fan!">
+        </SectionHeader>
+      </div>
+
+      <div className="trending-body">
+        {/* <CollectionSlider></CollectionSlider> */}
+        <TrendingSlider></TrendingSlider>
+      </div>
+
+      <MagneticButton text="Explore Fanwear" href="www.google.com"></MagneticButton>
+    </section>
 
     </div>
 
