@@ -182,3 +182,13 @@
      }
 
 }
+
+
+@media only screen and (max-width: 936px){
+     .featured{
+          .featured-body{
+               flex-direction: column !important;
+               padding: 0 !important;
+          }
+     }
+}
