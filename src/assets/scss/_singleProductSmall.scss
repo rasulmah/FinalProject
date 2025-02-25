@@ -1,8 +1,8 @@
 @use '_variables';
 
 .product-container{
-     width: 300px !important;
-     height: 475px;
+     width: 360px !important;
+     height: 545px;
      position: relative;
      text-align: left;
      .product-img{
@@ -25,6 +25,7 @@
                letter-spacing: .13em;
                line-height: 126%; 
                text-transform: uppercase;
+               width: 100% !important;
           }
           .info-body{
                p{

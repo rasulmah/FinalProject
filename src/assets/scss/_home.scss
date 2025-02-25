@@ -169,4 +169,16 @@
           }
      }
 
+
+     .featured{
+          padding: 50px 0 !important;
+          position: relative;
+          gap: 50px;
+          .featured-body{
+               width: 100%;
+               height: auto;
+               padding: 0 20px;
+          }
+     }
+
 }

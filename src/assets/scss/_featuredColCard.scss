@@ -1,0 +1,12 @@
+@use '_variables';
+
+.featured-card-container{
+     width: 1420px  !important;
+     height: 545px !important;
+     background-image: url(https://shop-int.mercedesamgf1.com/cdn/shop/files/Carousel_Medias_06f61889-6d48-4ccf-b365-7153fe8e9631.png?v=1738749161&width=1380);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 65% 75%;
+     border-radius: 2px;
+     border-top-left-radius: 100px;
+}

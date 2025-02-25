@@ -1,12 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import '../assets/scss/_home.scss'
-import FeatureSlider from '../components/FeatureSlider'
-import MagneticButton from '../components/MagneticButton'
+import FeatureSlider from '../components/Sliders/FeatureSlider'
+import CollectionSlider from '../components/Sliders/CollectionSlider'
+import MagneticButton from '../components/Buttons/MagneticButton'
+import FeaturedColCard from '../components/Cards/FeaturedColCard'
+import TrendingSlider from '../components/Sliders/TrendingSlider'
 import SectionHeader from '../components/SectionHeader'
-import CollectionSlider from '../components/CollectionSlider'
-import DriversSlider from '../components/DriversSlider'
-import TrendingSlider from '../components/TrendingSlider'
+import DriversSlider from '../components/Sliders/DriversSlider'
+import FeaturedColSlider from '../components/Sliders/FeaturedColSlider'
 
 
 
@@ -75,6 +77,20 @@ const Home = () => {
       </div>
 
       <MagneticButton text="Explore Fanwear" href="www.google.com"></MagneticButton>
+    </section>
+
+
+    <section className="featured d-flex justify-content-between align-items-center flex-column">
+      <div className="section-header">
+        <SectionHeader  h2="Featured Collections" >
+        </SectionHeader>
+      </div>
+
+      <div className="featured-body d-flex justify-content-start align-items-start">
+        <FeaturedColCard></FeaturedColCard>
+        <FeaturedColSlider></FeaturedColSlider>
+      </div>
+
     </section>
 
     </div>
