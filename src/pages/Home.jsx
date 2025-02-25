@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import '../assets/scss/_home.scss'
+import '../assets/scss/_featruedColCardRight.scss'
 import FeatureSlider from '../components/Sliders/FeatureSlider'
 import CollectionSlider from '../components/Sliders/CollectionSlider'
 import MagneticButton from '../components/Buttons/MagneticButton'
@@ -9,6 +10,7 @@ import TrendingSlider from '../components/Sliders/TrendingSlider'
 import SectionHeader from '../components/SectionHeader'
 import DriversSlider from '../components/Sliders/DriversSlider'
 import FeaturedColSlider from '../components/Sliders/FeaturedColSlider'
+import SubscribeSec from '../components/SectionComponents/SubscribeSec'
 
 
 
@@ -91,6 +93,26 @@ const Home = () => {
         <FeaturedColSlider></FeaturedColSlider>
       </div>
 
+    </section>
+
+    <section className="featured featured-right d-flex justify-content-between align-items-center flex-column">
+      <div className="section-header">
+        <SectionHeader  h2="T-Shirts" >
+        </SectionHeader>
+      </div>
+
+      <div className="featured-body  featured-body-right d-flex justify-content-start align-items-start">
+      
+        <FeaturedColCard></FeaturedColCard>
+        <FeaturedColSlider></FeaturedColSlider>
+        
+      </div>
+
+    </section>
+
+
+    <section className="subscribe d-flex justify-content-between align-items-center flex-column">
+      <SubscribeSec></SubscribeSec>
     </section>
 
     </div>

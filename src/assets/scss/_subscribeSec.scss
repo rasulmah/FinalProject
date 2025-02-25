@@ -1,0 +1,53 @@
+@use '_variables';
+
+.subs-container{
+     padding: 150px 0;
+     text-align: center;
+     gap: 10px;
+}
+
+.Newsletter-Title{
+     font-size: 50px;
+     color: #fff;
+     font-weight: 700;
+     letter-spacing: -.01em;
+     line-height: 110%;
+}
+.Newsletter-Text{
+     font-size: 18px;
+     color: #ffffff57;
+     font-weight: 300;
+    line-height: 126%;
+}
+
+.Newsletter-Form{
+     gap: 40px;
+     width: 700px;
+     text-align: center;
+     .form{
+          width: 100%;
+          display: flex;
+          gap: 10px;
+          input{
+               background-color: #ffffff1f;
+               width: 100%;
+               padding: 10px 20px;
+               outline: none;
+               border: none;
+               border-radius: 2px;
+          }
+          button{
+               padding: 10px 20px;
+               outline: none;
+               border: none;
+               border-radius: 2px;
+               background-color: variables.$VoltGreen;
+          }
+          
+     }
+     .form-text{
+          font-weight: 300;
+          color: #9c9c9c;
+          font-size: 13px;
+     }
+}
