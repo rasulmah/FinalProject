@@ -1,4 +1,4 @@
-@use '_variables';
+@use './abstracts/variables';
 
 @font-face {
      font-family: "Unity Sans";
@@ -25,10 +25,9 @@ a{
      text-decoration: inherit !important;
 }
 /* p{
-     border-bottom: none;
-     color: white;
-} */
-/* p:hover{
+     border-bottom: 1px solid black;
+}
+p:hover{
      border-bottom: 1px solid #00f5d2;
      transition: all 0.4s ease !important;
      color: #00f5d2;

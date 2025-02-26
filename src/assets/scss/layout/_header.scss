@@ -1,0 +1,215 @@
+@use '../abstracts/variables';
+
+ul{
+     margin-top: 1rem;
+}
+::placeholder{
+     color: #fff !important;
+     opacity: 1 !important;
+}
+
+.header{
+     position: absolute;
+     width: 100%;
+     z-index: 9999;
+     .header-container{
+          .ann-menu{
+               width: 100%;
+               background-color: #000;
+               text-transform: uppercase;
+               font-size: 10px;
+               font-weight: 300;
+               letter-spacing: .13em;
+               line-height: 131%;
+               text-transform: uppercase;
+               button{
+                    align-items: center;
+                    outline: none;
+                    border: none;
+                    background-color: transparent;
+                    color: #fff;
+               }
+               svg{
+                    width: 18px;
+                    height: 18px;
+               }
+     
+               .lang-container{
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: 265px;
+                    button{
+                         align-items: center;
+                         gap: 10px;
+                         outline: none;
+                         border: none;
+                         background-color: transparent;
+                         color: #fff;
+                    }
+               }
+     
+     
+               .sponsor a{
+                    text-decoration: none !important;
+                    color: variables.$accent-color;
+                    font-size: 10px;
+                    font-weight: 300;
+                    letter-spacing: .13em !important;
+                    line-height: 131%;
+                    text-transform: uppercase;
+     
+               }
+     
+               .theme{
+                    gap: 25px;
+                    width: 265px;
+                    justify-content: flex-end;
+               }
+          }
+     }
+     
+}
+.Dropdown-Items{
+     gap: 30px;
+     list-style: none;
+     color: white;
+     transition: width 0.5s ease-in-out !important;
+     .Dropdown-Item{
+          .Dropdown-Link{
+               color: white !important;
+               text-decoration: none !important;
+               font-weight: 300;
+               font-size: 13px;
+               letter-spacing: .13em;
+               line-height: 126%;
+               text-transform: uppercase;
+          }
+     }
+     
+}
+
+
+.banner-items{
+     gap: 15px;
+     justify-content: space-between;
+     transition: width 0.5s ease-in-out, font-size 0.3s ease-in-out !important;
+     .banner-icons{
+          flex-direction: row;
+          gap: 15px;
+          .banner-icon{
+               width: 30px;
+               height: 30px;
+               position: relative;
+               svg{
+               color: #fff !important;
+               width: 18px !important;
+               height: 18px !important;
+               }
+          }
+     }
+.searchContainer{
+     transition: width 0.5s ease-in-out, font-size 0.3s ease-in-out !important;
+.SearchForm{
+     width: 100%;
+     margin-right: 0;
+     background-color: #fdfdfd26;
+     backdrop-filter: blur(15px);
+     -webkit-backdrop-filter: blur(15px);
+     transition: all 0.5s ease, font-size 0.5s ease !important;
+     .SearchField{
+          position: relative;
+          width: 100%;
+          .SearchInput{
+               padding: 10px 15px;
+               height: 46px;
+               border: none;
+               outline: none;
+               width: 100%;
+               border-radius: 2px;
+               background-color: transparent;
+               color: #fff;
+               transition: width 0.5s ease-in-out, font-size 0.3s ease-in-out !important;
+               
+          }
+          .SearchLabel{
+               position: absolute;
+               top: 7px;
+               left: 15px;
+               z-index: 1;
+               display: block;
+               font-size: 9px;
+               font-weight: 300;
+               letter-spacing: .13em;
+               line-height: 131%;
+               text-transform: uppercase;
+               opacity: 0;
+               pointer-events: none;
+               transition: opacity .3s ease; 
+          }
+
+     }
+     button{     
+          width: 56px;
+          height: 46px;
+          border: none;
+          outline: none;
+          border-radius: 2px;
+          background-color: transparent;
+
+          svg{
+               width: 18px;
+               height: 18px;
+               color: #fff;
+          }
+          }
+     
+}
+}
+}
+
+.dropdown-element{
+     display: none !important;
+}
+
+
+
+/*Responsive Breakpoints*/
+/*Media Querries Responsive*/
+@media only screen and (max-width: 1440px){
+     .ann-menu{
+          display: none !important;
+     }
+     .Dropdown-Items{
+          display: none !important;
+     }
+     .searchContainer{
+          width: 100%;
+     }
+     .container-fluid{
+          flex-wrap: nowrap !important;
+          gap: 10px;
+     }
+     .banner-items{
+          width: 100%;
+     }
+     .dropdown-element{
+          display: block !important;
+     }
+     .icon{
+          display: none !important;
+     }
+
+}
+
+@media only screen and (max-width: 800px){
+     .searchContainer{
+          display: none !important;
+     }
+     .banner-items{
+          justify-content: flex-end;
+     }
+     .logo{
+          width: 145px !important;
+     }
+}
+

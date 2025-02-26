@@ -1,5 +1,5 @@
 import  'react'
-import '../../assets/scss/_singleProductSmall.scss'
+import '../../assets/scss/components/cards/_singleProductSmall.scss'
 
 
 const SingleProductSm = () => {

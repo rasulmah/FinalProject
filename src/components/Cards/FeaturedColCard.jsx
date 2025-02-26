@@ -1,6 +1,6 @@
 import 'react'
 
-import '../../assets/scss/_featuredColCard.scss'
+import '../../assets/scss/components/cards/_featuredColCard.scss'
 
 const FeaturedColCard = () => {
   return (

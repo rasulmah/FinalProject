@@ -1,6 +1,6 @@
 import 'react'
 
-import '../../assets/scss/_subscribeSec.scss'
+import '../../assets/scss/components/_subscribeSec.scss'
 
 const SubscribeSec = () => {
   return (

@@ -4,7 +4,7 @@ import { Pagination } from 'swiper/modules'
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import '../../assets/scss/_trendingSlider.scss' 
+import '../../assets/scss/components/sliders/_trendingSlider.scss' 
 import SingleProductSm from '../Cards/SingleProductSm';
 
 

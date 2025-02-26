@@ -1,6 +1,6 @@
 import  'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "../../assets/scss/_colslider.scss";
+import "../../assets/scss/components/sliders/_colslider.scss";
 
 import 'swiper/css';
 import 'swiper/css/scrollbar';

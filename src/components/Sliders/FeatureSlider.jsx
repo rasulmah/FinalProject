@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import '../../assets/scss/_featureslider.scss'
+import '../../assets/scss/components/sliders/_featureslider.scss'
 
 // import required modules
 import {  Autoplay, Pagination } from 'swiper/modules';

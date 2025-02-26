@@ -1,5 +1,5 @@
 import 'react'
-import "../../assets/scss/_fcard.scss"
+import "../../assets/scss/components/cards/_fcard.scss"
 
 const FeatureCard = () => {
   return (

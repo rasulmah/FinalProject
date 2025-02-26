@@ -1,5 +1,5 @@
 import 'react'
-import "../../assets/scss/_colcard.scss"
+import "../../assets/scss/components/cards/_colcard.scss"
 
 // eslint-disable-next-line react/prop-types
 const CollectionCard = ({img}) => {

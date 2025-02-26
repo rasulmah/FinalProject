@@ -1,5 +1,5 @@
 import 'react'
-import '../../assets/scss/_drivercard.scss'
+import "../../assets/scss/components/cards/_drivercard.scss"
 
 // eslint-disable-next-line react/prop-types
 const DriversCard = ({img}) => {

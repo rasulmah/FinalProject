@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import "../../assets/scss/_magneticbtn.scss"
+import "../../assets/scss/components/buttons/_magneticbtn.scss"
 
 // eslint-disable-next-line react/prop-types
 const MagneticButton = ({ text, href }) => {

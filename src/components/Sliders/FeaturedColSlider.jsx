@@ -4,7 +4,7 @@ import {  Navigation, Pagination} from 'swiper/modules'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import '../../assets/scss/_featuredcolSlider.scss' 
+import '../../assets/scss/components/sliders/_featuredcolSlider.scss' 
 import SingleProductSm from '../Cards/SingleProductSm';
 import SwiperNavButtons from '../Buttons/SwiperNavButtons';
 
